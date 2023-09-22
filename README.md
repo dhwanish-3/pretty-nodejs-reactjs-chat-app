@@ -5,6 +5,11 @@ If you are really confident in yourself then go ahead, I am not stopping you.
 
 ## NodeJS Server Setup
 
+Go to [Chat Engine](https://chatengine.io) to set up your own chat server.
+
+- Click "New Project" and follow the steps
+- Your `Project ID` and `Private Key` will be required copy them
+
 Inside the project folder
 ```
 mkdir backend
@@ -17,7 +22,12 @@ echo node_modules/ > .gitignore
 npm run start
 ```
 
-Edit the package.json file
+In `.env` write:
+
+```
+PRIVATE_KEY=`Private Key`
+```
+
 
 ## Connect React to Chat Engine!
 
@@ -44,7 +54,7 @@ We will connect to your Chat Engine server with environment variables.
 
 This allows you to connect to different chat servers in local vs. staging vs. production.
 
-Replace the UUID below with your own. In `.env` write:
+Replace the UUID below with your own. In `.env.local` write:
 
 ```
 REACT_APP_CHAT_ENGINE_PROJECT_ID=`Project ID`
