@@ -1,5 +1,9 @@
 # pretty-nodejs-reactjs-chat-app
 
+![Welcome](images/welcome.png)
+![Hello](images/hello.png)
+![chat](images/chat.png)
+
 Get detailed documentation at [Build Pretty Chat App](https://blog.chatengine.io/fullstack-chat/nodejs-reactjs).
 If you are really confident in yourself then go ahead, I am not stopping you.
 

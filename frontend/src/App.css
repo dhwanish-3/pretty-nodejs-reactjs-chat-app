@@ -80,3 +80,11 @@ body {
   -moz-transition: all .44s ease;
 }
 .auth-button:hover { filter: brightness(145%); }
+
+.ce-chat-list {
+  overflow: hidden !important;
+}
+
+.ce-message-list {
+  overflow: hidden !important;
+}
